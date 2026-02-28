@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Александр — Frontend-разработчик (JavaScript, React, Angular) билайн. Портфолио, опыт, проекты, контакты." />
+  <title>Александр — Frontend Developer билайн</title>
+
+  <!-- Separate stylesheet -->
+  <link rel="stylesheet" href="/styles.css" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Александр Потапов — Frontend Developer билайн" />
+  <meta property="og:description" content="JavaScript (React, Angular), HTML, современные технологии. Опыт в телеком: Билайн, Мегафон, международная компания." />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicons (optional) -->
+  <link rel="icon" href="/favicon.png" />
+</head>
+
+<body>
+  <a class="skip-link" href="#content">Перейти к содержимому</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <div class="brand">
+        <a class="brand-link" href="#top" aria-label="На главную">
+          <span class="brand-mark" aria-hidden="true">⚡</span>
+          <span class="brand-text">alex</span>
+        </a>
+      </div>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a class="nav-link" href="#about">Обо мне</a>
+        <a class="nav-link" href="#skills">Навыки</a>
+        <a class="nav-link" href="#experience">Опыт</a>
+        <a class="nav-link" href="#projects">Проекты</a>
+        <a class="nav-link" href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-ghost" href="#projects">Смотреть проекты</a>
+        <a class="btn btn-primary" href="#contacts">Связаться</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- HERO -->
+    <section class="hero" aria-label="Вступление">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker">Frontend Developer</p>
+          <h1 class="hero-title">
+            Александр — делаю быстрые и аккуратные интерфейсы на
+            <span class="accent">JavaScript</span>.
+          </h1>
+          <p class="hero-subtitle">
+            React / Angular, современный HTML/CSS, TypeScript, performance, доступность, дизайн-системы.
+            Опыт разработки продуктов в телеком-индустрии: Билайн, Мегафон и международная компания.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contacts">Написать мне</a>
+            <a class="btn btn-ghost" href="#experience">Посмотреть опыт</a>
+          </div>
+
+          <ul class="hero-badges" aria-label="Ключевые специализации">
+            <li class="badge">React</li>
+            <li class="badge">Angular</li>
+            <li class="badge">TypeScript</li>
+            <li class="badge">UI/UX</li>
+            <li class="badge">Performance</li>
+          </ul>
+        </div>
+
+        <aside class="hero-card" aria-label="Карточка профиля">
+          <div class="profile">
+            <div class="avatar" aria-hidden="true">A</div>
+            <div class="profile-meta">
+              <p class="profile-name">Александр</p>
+              <p class="profile-role">Frontend Developer</p>
+              <p class="profile-location">Europe • Remote / On-site</p>
+            </div>
+          </div>
+
+          <dl class="facts">
+            <div class="fact">
+              <dt>Фокус</dt>
+              <dd>SPA, design systems, DX</dd>
+            </div>
+            <div class="fact">
+              <dt>Стек</dt>
+              <dd>React, Angular, TS, Vite</dd>
+            </div>
+            <div class="fact">
+              <dt>Интересы</dt>
+              <dd>Web perf, a11y, CI/CD</dd>
+            </div>
+          </dl>
+
+          <div class="card-actions">
+            <a class="btn btn-small btn-ghost" href="#projects">Проекты</a>
+            <a class="btn btn-small btn-primary" href="#contacts">Контакты</a>
+          </div>
+        </aside>
+      </div>
+
+      <div class="container hero-stats" aria-label="Краткие показатели">
+        <div class="stat">
+          <p class="stat-value">7+ лет</p>
+          <p class="stat-label">в веб-разработке</p>
+        </div>
+        <div class="stat">
+          <p class="stat-value">Телеком</p>
+          <p class="stat-label">продукты и внутренние системы</p>
+        </div>
+        <div class="stat">
+          <p class="stat-value">UI качество</p>
+          <p class="stat-label">скорость • доступность • стабильность</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about" aria-label="Обо мне">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Обо мне</h2>
+          <p class="section-subtitle">
+            Делаю интерфейсы, которые приятно поддерживать и легко масштабировать.
+          </p>
+        </div>
+
+        <div class="two-col">
+          <div class="card">
+            <h3 class="card-title">Как я работаю</h3>
+            <ul class="list">
+              <li>Проясняю задачу и бизнес-метрики: что именно должно улучшиться.</li>
+              <li>Проектирую компоненты и состояния, учитывая a11y и edge-cases.</li>
+              <li>Слежу за performance: критический рендер, bundle, lazy-loading.</li>
+              <li>Довожу до production-quality: тесты, линтинг, CI, документация.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Что мне нравится</h3>
+            <p class="muted">
+              Современные подходы к разработке (component-driven), дизайн-системы,
+              аккуратные UI-паттерны, работа с продуктовой командой и прозрачные процессы.
+            </p>
+
+            <div class="pill-row" aria-label="Темы">
+              <span class="pill">Design Systems</span>
+              <span class="pill">Accessibility (a11y)</span>
+              <span class="pill">Performance</span>
+              <span class="pill">DX / Tooling</span>
+              <span class="pill">Micro-frontends</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills" aria-label="Навыки">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Навыки</h2>
+          <p class="section-subtitle">Основной стек и практики, которые использую ежедневно.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3 class="card-title">Frontend</h3>
+            <ul class="tags" aria-label="Frontend технологии">
+              <li class="tag">JavaScript</li>
+              <li class="tag">TypeScript</li>
+              <li class="tag">React</li>
+              <li class="tag">Angular</li>
+              <li class="tag">RxJS</li>
+              <li class="tag">Vite</li>
+              <li class="tag">Webpack</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title">HTML / CSS</h3>
+            <ul class="tags" aria-label="Верстка и стили">
+              <li class="tag">Semantic HTML</li>
+              <li class="tag">CSS Modules</li>
+              <li class="tag">Sass</li>
+              <li class="tag">BEM</li>
+              <li class="tag">Responsive</li>
+              <li class="tag">a11y</li>
+              <li class="tag">Design Tokens</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title">Инженерия</h3>
+            <ul class="tags" aria-label="Инженерные практики">
+              <li class="tag">Jest</li>
+              <li class="tag">Testing Library</li>
+              <li class="tag">Cypress</li>
+              <li class="tag">ESLint</li>
+              <li class="tag">Prettier</li>
+              <li class="tag">CI/CD</li>
+              <li class="tag">Git</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience" aria-label="Опыт работы">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Опыт</h2>
+          <p class="section-subtitle">
+            Продуктовая разработка и внутренние платформы в телеком-индустрии.
+          </p>
+        </div>
+
+        <div class="timeline" role="list">
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content card">
+              <div class="timeline-top">
+                <h3 class="card-title">Frontend Developer • <a href="https://beelinefiber.ru">Билайн</a></h3>
+                <p class="muted">Продуктовые интерфейсы и внутренние инструменты</p>
+              </div>
+              <ul class="list">
+                <li>Разработка компонентной библиотеки и унификация UI.</li>
+                <li>Оптимизация производительности (LCP/INP), снижение веса бандла.</li>
+                <li>Интеграция с API, работа с состояниями и сложными формами.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content card">
+              <div class="timeline-top">
+                <h3 class="card-title">Senior Frontend • Мегафон</h3>
+                <p class="muted">Личные кабинеты и сервисные приложения</p>
+              </div>
+              <ul class="list">
+                <li>Разработка SPA на React/TypeScript, внедрение архитектурных подходов.</li>
+                <li>Настройка CI, код-стайл, качество: линтинг, тесты, code review.</li>
+                <li>Улучшение UX: стабильные состояния, обработка ошибок, доступность.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content card">
+              <div class="timeline-top">
+                <h3 class="card-title">Frontend Engineer • AT&T</h3>
+                <p class="muted">B2B-платформа и интеграции</p>
+              </div>
+              <ul class="list">
+                <li>Развитие крупных интерфейсов: роли, права, конфигурации, таблицы.</li>
+                <li>Интеграции, стандартизация компонентов, документация и гайды.</li>
+                <li>Кросс-командное взаимодействие, согласование контрактов API и UI.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" aria-label="Проекты">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Проекты</h2>
+          
+        </div>
+
+        <div class="grid-3">
+          <article class="card project">
+            <h3 class="card-title">UI Kit / Design System</h3>
+            <p class="muted">
+              Компоненты, токены, документация, темизация. Фокус на a11y и повторном использовании.
+            </p>
+            <ul class="tags" aria-label="Технологии проекта">
+              <li class="tag">React</li>
+              <li class="tag">TypeScript</li>
+              <li class="tag">Storybook</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-small btn-ghost" href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn btn-small btn-primary" href="#" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3 class="card-title">Личный кабинет (SPA)</h3>
+            <p class="muted">
+              Архитектура, состояния, формы, обработка ошибок, аналитика, оптимизация загрузки.
+            </p>
+            <ul class="tags" aria-label="Технологии проекта">
+              <li class="tag">Angular</li>
+              <li class="tag">RxJS</li>
+              <li class="tag">API</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-small btn-ghost" href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn btn-small btn-primary" href="#" target="_blank" rel="noreferrer">Case</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3 class="card-title">Инструменты для команды</h3>
+            <p class="muted">
+              Вспомогательные утилиты, сборка, линтеры, шаблоны, CI-пайплайны для ускорения разработки.
+            </p>
+            <ul class="tags" aria-label="Технологии проекта">
+              <li class="tag">Node.js</li>
+              <li class="tag">Vite</li>
+              <li class="tag">CI/CD</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-small btn-ghost" href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn btn-small btn-primary" href="#" target="_blank" rel="noreferrer">Docs</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="section" id="contacts" aria-label="Контакты">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Контакты</h2>
+          <p class="section-subtitle">Самый быстрый способ — написать в мессенджер или на почту.</p>
+        </div>
+
+        <div class="two-col">
+          <div class="card">
+            <h3 class="card-title">Связаться</h3>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a class="contact-link" href="mailto:alexpotapovranken@gmail.com">alexpotapovranken@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact-label">GitHub</span>
+                <a class="contact-link" href="https://github.com/rankengineer" target="_blank" rel="noreferrer">
+                  github.com/rankengineer
+                </a>
+              </li>
+              
+              
+            </ul>
+
+            <p class="muted small">
+              * Замени контакты и username на реальные.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Коротко о запросах</h3>
+            <p class="muted">
+              Интересны задачи по развитию интерфейсов: дизайн-системы, личные кабинеты, B2B-платформы,
+              сложные формы/таблицы, оптимизация производительности и поддержка качества (тесты, CI).
+            </p>
+
+            <div class="availability">
+              <div class="availability-item">
+                <span class="dot dot-ok" aria-hidden="true"></span>
+                <span>Открыт к предложениям</span>
+              </div>
+              <div class="availability-item">
+                <span class="dot dot-neutral" aria-hidden="true"></span>
+                <span>Формат: удалённо / гибрид</span>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" aria-label="Подвал сайта">
+    <div class="container footer-inner">
+      <p class="muted small">© Александр Потапов • Frontend Developer</p>
+      <a class="to-top" href="#top" aria-label="Наверх">↑</a>
+    </div>
+  </footer>
+
+  
+</body>
+</html>
