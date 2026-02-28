@@ -337,6 +337,7 @@ a:hover{ text-decoration: underline; text-underline-offset: 3px; }
   color: rgba(37,99,235,0.95);
   background: linear-gradient(180deg, rgba(37,99,235,0.14), rgba(37,99,235,0.05));
   border: 1px solid rgba(37,99,235,0.20);
+  overflow: hidden;
 }
 
 .profile-name{
